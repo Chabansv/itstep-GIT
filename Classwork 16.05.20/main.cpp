@@ -12,11 +12,10 @@
 
 #include "QueuePushPriority.h"
 #include "QueuePriority.h"
+#include "Queue.h"
 
 using namespace std;
 //#define MAX 256
-
-
 
 
 
@@ -61,4 +60,21 @@ void main()
 
 	a.pop();
 	cout << a;
+
+	Queue d(25);
+	for (int i{}; i < 5; i++)
+	{
+		d.add(rand() % 50);
+	}
+	d.add(140);
+
+	d.show();
+
+	d.extract();
+	d.show();
+	d.extract();
+	d.show();
+	d.extract();
+	d.show();
+
 }

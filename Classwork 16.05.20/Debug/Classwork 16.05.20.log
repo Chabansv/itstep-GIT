@@ -1,5 +1,5 @@
-﻿  QueuePriority.cpp
+﻿  Queue.cpp
   main.cpp
-D:\Serg\Программирование\chaban\Classwork 16.05.20\Classwork 16.05.20\main.cpp(24,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\Serg\Программирование\chaban\Classwork 16.05.20\Classwork 16.05.20\main.cpp(23,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
   Создание кода...
   Classwork 16.05.20.vcxproj -> D:\Serg\Программирование\chaban\Classwork 16.05.20\Debug\Classwork 16.05.20.exe
