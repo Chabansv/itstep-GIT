@@ -11,6 +11,7 @@
 #include <windows.h>
 
 #include "QueuePushPriority.h"
+#include "QueuePriority.h"
 
 using namespace std;
 //#define MAX 256
@@ -40,4 +41,24 @@ void main()
 
 	q.pop();
 	cout << q;
+
+	QueuePriority a(25);
+
+	for (int i{}; i < 5; i++)
+	{
+		a.push(rand() % 100, rand() % 10);
+	}
+	cout << a;
+
+	a.push(555, 2);
+	cout << a;
+
+	a.push(5, 1);
+	cout << a;
+
+	a.pop();
+	cout << a;
+
+	a.pop();
+	cout << a;
 }
