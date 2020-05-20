@@ -12,10 +12,10 @@
 
 #include "QueuePushPriority.h"
 #include "QueuePriority.h"
-#include "Queue.h"
+//#include "Queue.h"
 
 using namespace std;
-//#define MAX 256
+
 
 
 
@@ -29,7 +29,7 @@ void main()
 	}
 	cout << q;
 
-	q.push(333, 1);
+	q.push(222, 5);
 	cout << q;
 
 	q.push(3, 3);
@@ -49,32 +49,17 @@ void main()
 	}
 	cout << a;
 
-	a.push(555, 2);
+	a.push(888, 3);
 	cout << a;
 
-	a.push(5, 1);
-	cout << a;
-
-	a.pop();
+	a.push(77, 10);
 	cout << a;
 
 	a.pop();
 	cout << a;
 
-	Queue d(25);
-	for (int i{}; i < 5; i++)
-	{
-		d.add(rand() % 50);
-	}
-	d.add(140);
-
-	d.show();
-
-	d.extract();
-	d.show();
-	d.extract();
-	d.show();
-	d.extract();
-	d.show();
+	a.pop();
+	cout << a;
+	
 
 }
